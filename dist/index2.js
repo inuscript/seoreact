@@ -19042,7 +19042,7 @@ function createItem(i){
   return React.createElement('div', null, i)
 }
 var childs = []
-for(i = 0; i < 1000; i++){
+for(i = 0; i < 100000; i++){
   childs.push(createItem(i))
 }
 var hello = React.createElement('div', null, childs)
