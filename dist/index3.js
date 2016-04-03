@@ -19226,6 +19226,6 @@ var hello = React.createElement('div', null, 'hello timeout:' + timeout)
 
 setTimeout(function(){
   ReactDOM.render(hello, document.getElementById('container'))
-}, "timeout")
+}, timeout)
 
 },{"querystring":31,"react":161,"react-dom":32}]},{},[162]);

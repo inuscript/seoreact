@@ -10,4 +10,4 @@ var hello = React.createElement('div', null, 'hello timeout:' + timeout)
 
 setTimeout(function(){
   ReactDOM.render(hello, document.getElementById('container'))
-}, "timeout")
+}, timeout)
