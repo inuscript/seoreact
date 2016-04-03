@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build1": "browserify src/index.js -o dist/index.js",
-    "build2": "browserify src/index2.js -o dist/index2.js"
+    "build2": "browserify src/index2.js -o dist/index2.js",
+    "build3": "browserify src/index3.js -o dist/index3.js"
   },
   "keywords": [],
   "author": "",
