@@ -8,7 +8,8 @@
     "build1": "browserify src/index.js -o dist/index.js",
     "build2": "browserify src/index2.js -o dist/index2.js",
     "build3": "browserify src/index3.js -o dist/index3.js",
-    "build4": "browserify src/arrayfill.js -o dist/arrayfill.js"
+    "build4": "browserify src/arrayfill.js -o dist/arrayfill.js",
+    "build5": "browserify src/arrayapply.js -o dist/arrayapply.js"
   },
   "keywords": [],
   "author": "",
