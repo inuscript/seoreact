@@ -10,7 +10,8 @@
     "build3": "browserify src/index3.js -o dist/index3.js",
     "build4": "browserify src/arrayfill.js -o dist/arrayfill.js",
     "build5": "browserify src/arrayapply.js -o dist/arrayapply.js",
-    "build6": "browserify src/arraykeys.js -o dist/arraykeys.js"
+    "build6": "browserify src/arraykeys.js -o dist/arraykeys.js",
+    "build7": "browserify src/poly.js -o dist/poly.js"
   },
   "keywords": [],
   "author": "",
