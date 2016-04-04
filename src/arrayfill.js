@@ -1,5 +1,6 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
-
+var arr = new Array(5).fill('')
+console.log(arr)
 var hello = React.createElement('div', null, 'hello')
 ReactDOM.render(hello, document.getElementById('container'))
