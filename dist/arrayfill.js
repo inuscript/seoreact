@@ -19035,24 +19035,25 @@ module.exports = validateDOMNesting;
 module.exports = require('./lib/React');
 
 },{"./lib/React":53}],159:[function(require,module,exports){
-console.time('start')
+'use strict';
 
-var React = require('react')
-var ReactDOM = require('react-dom')
+console.time('start');
+
+var React = require('react');
+var ReactDOM = require('react-dom');
 // var arr = Array.apply(null, Array(5)).map(function (_, i) {return i;}).join(',')
 var arr = new Array(1).fill().map(function (_, i) {
-  console.log(i)
+  console.log(i);
   return i;
-}).join(',')
+}).join(',');
 // .map((item, i) => {
 //   return i
 // })
 // var arr = [1,2,3].join(',')
-console.log(arr)
-var hello = React.createElement('div', null, arr)
-ReactDOM.render(hello, document.getElementById('container'), function(){
-  console.timeEnd('start')
-  
-})
+console.log(arr);
+var hello = React.createElement('div', null, arr);
+ReactDOM.render(hello, document.getElementById('container'), function () {
+  console.timeEnd('start');
+});
 
 },{"react":158,"react-dom":29}]},{},[159]);
