@@ -1,5 +1,11 @@
+require("babel-polyfill")
 console.time('start')
 
-var arr = new Array(1).fill().map(function (_, i) {
+var arr = [1,2,3].fill().map(function (_, i) {
   return i;
 }).join(',')
+
+// async function(){
+//   console.log("aa")
+// }
+// Object.assign({}, {a: "b"})

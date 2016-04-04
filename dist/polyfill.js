@@ -6545,18 +6545,8 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],291:[function(require,module,exports){
-'use strict';
+"use strict";
 
 require("babel-polyfill");
-console.time('start');
-
-var arr = [1, 2, 3].fill().map(function (_, i) {
-  return i;
-}).join(',');
-
-// async function(){
-//   console.log("aa")
-// }
-// Object.assign({}, {a: "b"})
 
 },{"babel-polyfill":1}]},{},[291]);
